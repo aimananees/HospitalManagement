@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class PatientSignUpViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
 
@@ -50,6 +51,10 @@ class PatientSignUpViewController: UIViewController,UIImagePickerControllerDeleg
         self.dismiss(animated: true, completion: nil)
     }
 
+    @IBAction func submitButton(_ sender: UIButton) {
+        
+    }
     
     
 }
+

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A32D538C9549F3BDCD255FB /* Pods_HospitalManagementTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0370C581736582B3D3CF4AB2 /* Pods_HospitalManagementTests.framework */; };
+		6D7E3E8E76F9E96FA895566A /* Pods_HospitalManagementUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA153760049F65B5F6DFD6F /* Pods_HospitalManagementUITests.framework */; };
+		DE57FE54BDEFF1ECE5881915 /* Pods_HospitalManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5834B15C25EAE150CA3E8E /* Pods_HospitalManagement.framework */; };
 		E14780DA1E3667D700B32037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14780D91E3667D700B32037 /* AppDelegate.swift */; };
 		E14780DC1E3667D700B32037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14780DB1E3667D700B32037 /* ViewController.swift */; };
 		E14780E21E3667D700B32037 /* HospitalManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E14780E01E3667D700B32037 /* HospitalManagement.xcdatamodeld */; };
@@ -48,6 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0370C581736582B3D3CF4AB2 /* Pods_HospitalManagementTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HospitalManagementTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A82A3BD251CAB40D0CB9F74 /* Pods-HospitalManagementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HospitalManagementUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HospitalManagementUITests/Pods-HospitalManagementUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E5834B15C25EAE150CA3E8E /* Pods_HospitalManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HospitalManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67ECF745661E592D101EDB4C /* Pods-HospitalManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HospitalManagementTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HospitalManagementTests/Pods-HospitalManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EF4013565E105F2651964FC /* Pods-HospitalManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HospitalManagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HospitalManagement/Pods-HospitalManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		C8759F1F5FA62CF020AF6D88 /* Pods-HospitalManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HospitalManagement.release.xcconfig"; path = "Pods/Target Support Files/Pods-HospitalManagement/Pods-HospitalManagement.release.xcconfig"; sourceTree = "<group>"; };
+		DBA153760049F65B5F6DFD6F /* Pods_HospitalManagementUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HospitalManagementUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14780D61E3667D700B32037 /* HospitalManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HospitalManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14780D91E3667D700B32037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E14780DB1E3667D700B32037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +85,8 @@
 		E1971DAC1E6281FE00F9E093 /* PrescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrescriptionViewController.swift; sourceTree = "<group>"; };
 		E1971DAE1E62821300F9E093 /* Doctor_accountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor_accountViewController.swift; sourceTree = "<group>"; };
 		E1971DB01E62904F00F9E093 /* IndividualPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualPatientViewController.swift; sourceTree = "<group>"; };
+		EB88B194AA5B39CA7CC12B07 /* Pods-HospitalManagementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HospitalManagementUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HospitalManagementUITests/Pods-HospitalManagementUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF45A5422A34C3391E658E00 /* Pods-HospitalManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HospitalManagementTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HospitalManagementTests/Pods-HospitalManagementTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE57FE54BDEFF1ECE5881915 /* Pods_HospitalManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A32D538C9549F3BDCD255FB /* Pods_HospitalManagementTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,12 +110,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D7E3E8E76F9E96FA895566A /* Pods_HospitalManagementUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D80FEB62C97A54A39F81548F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E5834B15C25EAE150CA3E8E /* Pods_HospitalManagement.framework */,
+				0370C581736582B3D3CF4AB2 /* Pods_HospitalManagementTests.framework */,
+				DBA153760049F65B5F6DFD6F /* Pods_HospitalManagementUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E14780CD1E3667D700B32037 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +134,8 @@
 				E14780F01E3667D700B32037 /* HospitalManagementTests */,
 				E14780FB1E3667D700B32037 /* HospitalManagementUITests */,
 				E14780D71E3667D700B32037 /* Products */,
+				F25E7C9BB94DF60FC1DE3899 /* Pods */,
+				D80FEB62C97A54A39F81548F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,6 +226,19 @@
 			name = Login;
 			sourceTree = "<group>";
 		};
+		F25E7C9BB94DF60FC1DE3899 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EF4013565E105F2651964FC /* Pods-HospitalManagement.debug.xcconfig */,
+				C8759F1F5FA62CF020AF6D88 /* Pods-HospitalManagement.release.xcconfig */,
+				67ECF745661E592D101EDB4C /* Pods-HospitalManagementTests.debug.xcconfig */,
+				EF45A5422A34C3391E658E00 /* Pods-HospitalManagementTests.release.xcconfig */,
+				3A82A3BD251CAB40D0CB9F74 /* Pods-HospitalManagementUITests.debug.xcconfig */,
+				EB88B194AA5B39CA7CC12B07 /* Pods-HospitalManagementUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -206,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E14781011E3667D700B32037 /* Build configuration list for PBXNativeTarget "HospitalManagement" */;
 			buildPhases = (
+				F189E5177972170E4610E20A /* [CP] Check Pods Manifest.lock */,
 				E14780D21E3667D700B32037 /* Sources */,
 				E14780D31E3667D700B32037 /* Frameworks */,
 				E14780D41E3667D700B32037 /* Resources */,
+				803CD3872FF1BC70EA0496CB /* [CP] Embed Pods Frameworks */,
+				DCCC37E381FF5E178046E4B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E14781041E3667D700B32037 /* Build configuration list for PBXNativeTarget "HospitalManagementTests" */;
 			buildPhases = (
+				6C6ADCA87864445997254B5C /* [CP] Check Pods Manifest.lock */,
 				E14780E91E3667D700B32037 /* Sources */,
 				E14780EA1E3667D700B32037 /* Frameworks */,
 				E14780EB1E3667D700B32037 /* Resources */,
+				547148D3D125AC29CD63AE11 /* [CP] Embed Pods Frameworks */,
+				C933919A049D98D19989A5D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E14781071E3667D700B32037 /* Build configuration list for PBXNativeTarget "HospitalManagementUITests" */;
 			buildPhases = (
+				7C0F73018FF78F7C1C762E4E /* [CP] Check Pods Manifest.lock */,
 				E14780F41E3667D700B32037 /* Sources */,
 				E14780F51E3667D700B32037 /* Frameworks */,
 				E14780F61E3667D700B32037 /* Resources */,
+				BF580DA29BA517F3551677E1 /* [CP] Embed Pods Frameworks */,
+				0F1F81F095262DFDE25AFE22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -329,6 +378,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F1F81F095262DFDE25AFE22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HospitalManagementUITests/Pods-HospitalManagementUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		547148D3D125AC29CD63AE11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HospitalManagementTests/Pods-HospitalManagementTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6ADCA87864445997254B5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C0F73018FF78F7C1C762E4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		803CD3872FF1BC70EA0496CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HospitalManagement/Pods-HospitalManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF580DA29BA517F3551677E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HospitalManagementUITests/Pods-HospitalManagementUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C933919A049D98D19989A5D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HospitalManagementTests/Pods-HospitalManagementTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCCC37E381FF5E178046E4B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HospitalManagement/Pods-HospitalManagement-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F189E5177972170E4610E20A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E14780D21E3667D700B32037 /* Sources */ = {
@@ -498,6 +685,7 @@
 		};
 		E14781021E3667D700B32037 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF4013565E105F2651964FC /* Pods-HospitalManagement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -511,6 +699,7 @@
 		};
 		E14781031E3667D700B32037 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8759F1F5FA62CF020AF6D88 /* Pods-HospitalManagement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -524,6 +713,7 @@
 		};
 		E14781051E3667D700B32037 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67ECF745661E592D101EDB4C /* Pods-HospitalManagementTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -539,6 +729,7 @@
 		};
 		E14781061E3667D700B32037 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF45A5422A34C3391E658E00 /* Pods-HospitalManagementTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -554,6 +745,7 @@
 		};
 		E14781081E3667D700B32037 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A82A3BD251CAB40D0CB9F74 /* Pods-HospitalManagementUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = V6PZYKT7A6;
@@ -568,6 +760,7 @@
 		};
 		E14781091E3667D700B32037 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB88B194AA5B39CA7CC12B07 /* Pods-HospitalManagementUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = V6PZYKT7A6;

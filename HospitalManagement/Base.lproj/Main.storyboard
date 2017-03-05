@@ -1417,6 +1417,9 @@
                                 <state key="normal" title="Register">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitButton:" destination="MHN-La-qhN" eventType="touchUpInside" id="M4c-Bv-wey"/>
+                                </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kcX-9r-8uT">
                                 <rect key="frame" x="-5" y="0.0" width="375" height="44"/>
@@ -1480,6 +1483,6 @@
         <image name="profile" width="160" height="160"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="0bW-T9-64i"/>
+        <segue reference="gac-c5-ccy"/>
     </inferredMetricsTieBreakers>
 </document>
