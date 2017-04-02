@@ -7,29 +7,58 @@
 //
 
 import UIKit
+import MessageUI
+import Firebase
 
-class PrescriptionViewController: UIViewController {
 
+
+class PrescriptionViewController: UIViewController,MFMailComposeViewControllerDelegate{
+
+    var databaseRef:FIRDatabaseReference?
+    var databaseHandle:FIRDatabaseHandle?
+
+    
+    @IBOutlet var subject: UITextField!
+    @IBOutlet var prescription: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        var patientUsername = ScheduleViewController.Passing_Patient_Information.username
+        patientUsername=patientUsername.replacingOccurrences(of: ".", with: "")
+        patientUsername+="_prescription"
+        databaseRef = FIRDatabase.database().reference().child(patientUsername)
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    @IBAction func sendMail(_ sender: UIButton) {
+        if(LoginViewController.GlobalVariable_Doctor_Sign_in.username != ""){
+            let key=databaseRef?.childByAutoId().key
+            let post : [String : AnyObject] = ["doctorName":LoginViewController.GlobalVariable_Doctor_Sign_in.name as AnyObject,"subject":subject.text as AnyObject,"prescription":prescription.text as AnyObject]
+            
+            databaseRef?.child(key!).setValue(post)
+           
+            var alert = UIAlertController(title: "Prescription", message: "Prescription is sent successfully.", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            subject.text = ""
+            prescription.text=""
+            
+        }
+        else{
+            let key=databaseRef?.childByAutoId().key
+            let post : [String : AnyObject] = ["doctorName":DoctorSignUpViewController.GlobalVariable_Doctor_Sign_Up.name as AnyObject,"subject":subject.text as AnyObject,"prescription":prescription.text as AnyObject]
+            
+            databaseRef?.child(key!).setValue(post)
+            
+            var alert = UIAlertController(title: "Prescription", message: "Prescription is sent successfully.", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            subject.text = ""
+            prescription.text=""
+
+        }
+
+}
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

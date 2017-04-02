@@ -12,10 +12,11 @@ class Doctor_mainViewController: UIViewController {
 
     @IBOutlet weak var containerView: UIView!
     
+    var USERNAME = ""
     enum TabIndex: Int{
         case FirstChildTab = 0
-        case SecondChildTab = 1
-        case ThirdChildTab = 2
+        case SecondChildTab = 2
+        case ThirdChildTab = 1
     }
     
     var currentViewController: UIViewController?
@@ -23,10 +24,12 @@ class Doctor_mainViewController: UIViewController {
         let firstChildTabVC = self.storyboard?.instantiateViewController(withIdentifier: "ScheduleViewController")
         return firstChildTabVC
     }()
+    /*
     lazy var secondChildTabVC : UIViewController? = {
         let secondChildTabVC = self.storyboard?.instantiateViewController(withIdentifier: "PrescriptionViewController")
         return secondChildTabVC
     }()
+    */
     lazy var thirdChildTabVC : UIViewController? = {
         let thirdChildTabVC = self.storyboard?.instantiateViewController(withIdentifier: "Doctor_accountViewController")
         return thirdChildTabVC
@@ -36,6 +39,7 @@ class Doctor_mainViewController: UIViewController {
         super.viewDidLoad()
         
         displayCurrentTab(tabIndex: TabIndex.FirstChildTab.rawValue)
+        print(USERNAME)
     }
     
     
@@ -62,8 +66,8 @@ class Doctor_mainViewController: UIViewController {
         switch index {
         case TabIndex.FirstChildTab.rawValue :
             vc = firstChildTabVC
-        case TabIndex.SecondChildTab.rawValue :
-            vc = secondChildTabVC
+        //case TabIndex.SecondChildTab.rawValue :
+          //  vc = secondChildTabVC
         case TabIndex.ThirdChildTab.rawValue :
             vc = thirdChildTabVC
         default:
@@ -75,6 +79,8 @@ class Doctor_mainViewController: UIViewController {
 
     
     
+              
+
 
     
     

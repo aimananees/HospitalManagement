@@ -17,6 +17,10 @@
 		E14780E71E3667D700B32037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14780E51E3667D700B32037 /* LaunchScreen.storyboard */; };
 		E14780F21E3667D700B32037 /* HospitalManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14780F11E3667D700B32037 /* HospitalManagementTests.swift */; };
 		E14780FD1E3667D700B32037 /* HospitalManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14780FC1E3667D700B32037 /* HospitalManagementUITests.swift */; };
+		E164C2DB1E818BCE008F74C8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164C2DA1E818BCE008F74C8 /* RegisterViewController.swift */; };
+		E164C2DD1E818FD7008F74C8 /* PatientRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164C2DC1E818FD7008F74C8 /* PatientRegisterViewController.swift */; };
+		E164C2DF1E8195F4008F74C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E164C2DE1E8195F4008F74C8 /* GoogleService-Info.plist */; };
+		E164E7151E8E4BD1008FBAB6 /* patient_prescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164E7141E8E4BD1008FBAB6 /* patient_prescriptionViewController.swift */; };
 		E16ED13B1E6155E200C91DAA /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16ED13A1E6155E200C91DAA /* AccountViewController.swift */; };
 		E16ED1411E61714800C91DAA /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16ED1401E61714800C91DAA /* AppointmentViewController.swift */; };
 		E16ED1431E61716000C91DAA /* DoctorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16ED1421E61716000C91DAA /* DoctorsViewController.swift */; };
@@ -31,6 +35,24 @@
 		E1971DAD1E6281FE00F9E093 /* PrescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1971DAC1E6281FE00F9E093 /* PrescriptionViewController.swift */; };
 		E1971DAF1E62821300F9E093 /* Doctor_accountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1971DAE1E62821300F9E093 /* Doctor_accountViewController.swift */; };
 		E1971DB11E62904F00F9E093 /* IndividualPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1971DB01E62904F00F9E093 /* IndividualPatientViewController.swift */; };
+		E1A8C64F1E85351000841BD2 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C6391E85351000841BD2 /* IQNSArray+Sort.swift */; };
+		E1A8C6501E85351000841BD2 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C63A1E85351000841BD2 /* IQUIScrollView+Additions.swift */; };
+		E1A8C6511E85351000841BD2 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C63B1E85351000841BD2 /* IQUITextFieldView+Additions.swift */; };
+		E1A8C6521E85351000841BD2 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C63C1E85351000841BD2 /* IQUIView+Hierarchy.swift */; };
+		E1A8C6531E85351000841BD2 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C63D1E85351000841BD2 /* IQUIViewController+Additions.swift */; };
+		E1A8C6541E85351000841BD2 /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C63E1E85351000841BD2 /* IQUIWindow+Hierarchy.swift */; };
+		E1A8C6551E85351000841BD2 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C6401E85351000841BD2 /* IQKeyboardManagerConstants.swift */; };
+		E1A8C6561E85351000841BD2 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C6411E85351000841BD2 /* IQKeyboardManagerConstantsInternal.swift */; };
+		E1A8C6571E85351000841BD2 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C6421E85351000841BD2 /* IQKeyboardManager.swift */; };
+		E1A8C6581E85351000841BD2 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C6441E85351000841BD2 /* IQKeyboardReturnKeyHandler.swift */; };
+		E1A8C6591E85351000841BD2 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C6461E85351000841BD2 /* IQTextView.swift */; };
+		E1A8C65A1E85351000841BD2 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C6481E85351000841BD2 /* IQBarButtonItem.swift */; };
+		E1A8C65B1E85351000841BD2 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C6491E85351000841BD2 /* IQPreviousNextView.swift */; };
+		E1A8C65C1E85351000841BD2 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C64A1E85351000841BD2 /* IQTitleBarButtonItem.swift */; };
+		E1A8C65D1E85351000841BD2 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C64B1E85351000841BD2 /* IQToolbar.swift */; };
+		E1A8C65E1E85351000841BD2 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8C64C1E85351000841BD2 /* IQUIView+IQKeyboardToolbar.swift */; };
+		E1A8C65F1E85351000841BD2 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1A8C64E1E85351000841BD2 /* IQKeyboardManager.bundle */; };
+		E1D950371E8E523C00C46971 /* IndividualPrescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D950361E8E523C00C46971 /* IndividualPrescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +93,10 @@
 		E14780F81E3667D700B32037 /* HospitalManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HospitalManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14780FC1E3667D700B32037 /* HospitalManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalManagementUITests.swift; sourceTree = "<group>"; };
 		E14780FE1E3667D700B32037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E164C2DA1E818BCE008F74C8 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E164C2DC1E818FD7008F74C8 /* PatientRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatientRegisterViewController.swift; path = ../PatientRegisterViewController.swift; sourceTree = "<group>"; };
+		E164C2DE1E8195F4008F74C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E164E7141E8E4BD1008FBAB6 /* patient_prescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = patient_prescriptionViewController.swift; sourceTree = "<group>"; };
 		E16ED13A1E6155E200C91DAA /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		E16ED1401E61714800C91DAA /* AppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
 		E16ED1421E61716000C91DAA /* DoctorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorsViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +111,25 @@
 		E1971DAC1E6281FE00F9E093 /* PrescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrescriptionViewController.swift; sourceTree = "<group>"; };
 		E1971DAE1E62821300F9E093 /* Doctor_accountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor_accountViewController.swift; sourceTree = "<group>"; };
 		E1971DB01E62904F00F9E093 /* IndividualPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualPatientViewController.swift; sourceTree = "<group>"; };
+		E1A8C6391E85351000841BD2 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		E1A8C63A1E85351000841BD2 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		E1A8C63B1E85351000841BD2 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		E1A8C63C1E85351000841BD2 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		E1A8C63D1E85351000841BD2 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		E1A8C63E1E85351000841BD2 /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		E1A8C6401E85351000841BD2 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		E1A8C6411E85351000841BD2 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		E1A8C6421E85351000841BD2 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		E1A8C6431E85351000841BD2 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		E1A8C6441E85351000841BD2 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		E1A8C6461E85351000841BD2 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		E1A8C6481E85351000841BD2 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		E1A8C6491E85351000841BD2 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		E1A8C64A1E85351000841BD2 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		E1A8C64B1E85351000841BD2 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		E1A8C64C1E85351000841BD2 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		E1A8C64E1E85351000841BD2 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		E1D950361E8E523C00C46971 /* IndividualPrescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualPrescriptionViewController.swift; sourceTree = "<group>"; };
 		EB88B194AA5B39CA7CC12B07 /* Pods-HospitalManagementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HospitalManagementUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HospitalManagementUITests/Pods-HospitalManagementUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EF45A5422A34C3391E658E00 /* Pods-HospitalManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HospitalManagementTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HospitalManagementTests/Pods-HospitalManagementTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,8 +204,10 @@
 				E14780D91E3667D700B32037 /* AppDelegate.swift */,
 				E14780E31E3667D700B32037 /* Assets.xcassets */,
 				E17F2FBC1E68276800722523 /* Main.storyboard */,
+				E1A8C6371E85351000841BD2 /* IQKeyboardManagerSwift */,
 				E14780E51E3667D700B32037 /* LaunchScreen.storyboard */,
 				E14780E81E3667D700B32037 /* Info.plist */,
+				E164C2DE1E8195F4008F74C8 /* GoogleService-Info.plist */,
 				E14780E01E3667D700B32037 /* HospitalManagement.xcdatamodeld */,
 			);
 			path = HospitalManagement;
@@ -189,6 +236,7 @@
 			children = (
 				E17F2FC41E68448500722523 /* PatientLoginViewController.swift */,
 				E17F2FC61E68449900722523 /* PatientSignUpViewController.swift */,
+				E164C2DC1E818FD7008F74C8 /* PatientRegisterViewController.swift */,
 			);
 			name = "Patient-Login";
 			sourceTree = "<group>";
@@ -201,6 +249,8 @@
 				E16ED1401E61714800C91DAA /* AppointmentViewController.swift */,
 				E16ED13A1E6155E200C91DAA /* AccountViewController.swift */,
 				E17215C71E61F93D0026F17F /* IndividualDoctorViewController.swift */,
+				E164E7141E8E4BD1008FBAB6 /* patient_prescriptionViewController.swift */,
+				E1D950361E8E523C00C46971 /* IndividualPrescriptionViewController.swift */,
 			);
 			name = "Patient-Side";
 			sourceTree = "<group>";
@@ -222,8 +272,75 @@
 			children = (
 				E17F2FBF1E68290600722523 /* LoginViewController.swift */,
 				E17F2FC11E683C9700722523 /* DoctorSignUpViewController.swift */,
+				E164C2DA1E818BCE008F74C8 /* RegisterViewController.swift */,
 			);
 			name = Login;
+			sourceTree = "<group>";
+		};
+		E1A8C6371E85351000841BD2 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E1A8C6381E85351000841BD2 /* Categories */,
+				E1A8C63F1E85351000841BD2 /* Constants */,
+				E1A8C6421E85351000841BD2 /* IQKeyboardManager.swift */,
+				E1A8C6431E85351000841BD2 /* IQKeyboardManagerSwift.h */,
+				E1A8C6441E85351000841BD2 /* IQKeyboardReturnKeyHandler.swift */,
+				E1A8C6451E85351000841BD2 /* IQTextView */,
+				E1A8C6471E85351000841BD2 /* IQToolbar */,
+				E1A8C64D1E85351000841BD2 /* Resources */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = ../IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		E1A8C6381E85351000841BD2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E1A8C6391E85351000841BD2 /* IQNSArray+Sort.swift */,
+				E1A8C63A1E85351000841BD2 /* IQUIScrollView+Additions.swift */,
+				E1A8C63B1E85351000841BD2 /* IQUITextFieldView+Additions.swift */,
+				E1A8C63C1E85351000841BD2 /* IQUIView+Hierarchy.swift */,
+				E1A8C63D1E85351000841BD2 /* IQUIViewController+Additions.swift */,
+				E1A8C63E1E85351000841BD2 /* IQUIWindow+Hierarchy.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E1A8C63F1E85351000841BD2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E1A8C6401E85351000841BD2 /* IQKeyboardManagerConstants.swift */,
+				E1A8C6411E85351000841BD2 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E1A8C6451E85351000841BD2 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E1A8C6461E85351000841BD2 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		E1A8C6471E85351000841BD2 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				E1A8C6481E85351000841BD2 /* IQBarButtonItem.swift */,
+				E1A8C6491E85351000841BD2 /* IQPreviousNextView.swift */,
+				E1A8C64A1E85351000841BD2 /* IQTitleBarButtonItem.swift */,
+				E1A8C64B1E85351000841BD2 /* IQToolbar.swift */,
+				E1A8C64C1E85351000841BD2 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		E1A8C64D1E85351000841BD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1A8C64E1E85351000841BD2 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		F25E7C9BB94DF60FC1DE3899 /* Pods */ = {
@@ -316,6 +433,7 @@
 				TargetAttributes = {
 					E14780D51E3667D700B32037 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XW73GFFZH2;
 						ProvisioningStyle = Automatic;
 					};
 					E14780EC1E3667D700B32037 = {
@@ -357,7 +475,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A8C65F1E85351000841BD2 /* IQKeyboardManager.bundle in Resources */,
 				E17F2FBE1E68276800722523 /* Main.storyboard in Resources */,
+				E164C2DF1E8195F4008F74C8 /* GoogleService-Info.plist in Resources */,
 				E14780E71E3667D700B32037 /* LaunchScreen.storyboard in Resources */,
 				E14780E41E3667D700B32037 /* Assets.xcassets in Resources */,
 			);
@@ -422,7 +542,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		7C0F73018FF78F7C1C762E4E /* [CP] Check Pods Manifest.lock */ = {
@@ -437,7 +557,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		803CD3872FF1BC70EA0496CB /* [CP] Embed Pods Frameworks */ = {
@@ -512,7 +632,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -522,22 +642,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A8C6521E85351000841BD2 /* IQUIView+Hierarchy.swift in Sources */,
+				E1A8C64F1E85351000841BD2 /* IQNSArray+Sort.swift in Sources */,
+				E1A8C6581E85351000841BD2 /* IQKeyboardReturnKeyHandler.swift in Sources */,
 				E14780DC1E3667D700B32037 /* ViewController.swift in Sources */,
+				E1A8C6551E85351000841BD2 /* IQKeyboardManagerConstants.swift in Sources */,
 				E1971DB11E62904F00F9E093 /* IndividualPatientViewController.swift in Sources */,
 				E17F2FC71E68449900722523 /* PatientSignUpViewController.swift in Sources */,
 				E17F2FC51E68448500722523 /* PatientLoginViewController.swift in Sources */,
+				E1A8C6511E85351000841BD2 /* IQUITextFieldView+Additions.swift in Sources */,
 				E16ED1431E61716000C91DAA /* DoctorsViewController.swift in Sources */,
+				E164C2DD1E818FD7008F74C8 /* PatientRegisterViewController.swift in Sources */,
 				E14780DA1E3667D700B32037 /* AppDelegate.swift in Sources */,
+				E1A8C6561E85351000841BD2 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
 				E1971DAB1E6281D500F9E093 /* ScheduleViewController.swift in Sources */,
 				E1971DAD1E6281FE00F9E093 /* PrescriptionViewController.swift in Sources */,
 				E16ED13B1E6155E200C91DAA /* AccountViewController.swift in Sources */,
+				E1A8C6571E85351000841BD2 /* IQKeyboardManager.swift in Sources */,
+				E1A8C65D1E85351000841BD2 /* IQToolbar.swift in Sources */,
+				E1A8C65C1E85351000841BD2 /* IQTitleBarButtonItem.swift in Sources */,
 				E17215C81E61F93D0026F17F /* IndividualDoctorViewController.swift in Sources */,
 				E1971DAF1E62821300F9E093 /* Doctor_accountViewController.swift in Sources */,
+				E1A8C65B1E85351000841BD2 /* IQPreviousNextView.swift in Sources */,
+				E1A8C6541E85351000841BD2 /* IQUIWindow+Hierarchy.swift in Sources */,
+				E1A8C6501E85351000841BD2 /* IQUIScrollView+Additions.swift in Sources */,
 				E16ED1411E61714800C91DAA /* AppointmentViewController.swift in Sources */,
+				E1A8C6531E85351000841BD2 /* IQUIViewController+Additions.swift in Sources */,
+				E1A8C65E1E85351000841BD2 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				E1A8C6591E85351000841BD2 /* IQTextView.swift in Sources */,
+				E1A8C65A1E85351000841BD2 /* IQBarButtonItem.swift in Sources */,
 				E17F2FC21E683C9700722523 /* DoctorSignUpViewController.swift in Sources */,
+				E164C2DB1E818BCE008F74C8 /* RegisterViewController.swift in Sources */,
+				E164E7151E8E4BD1008FBAB6 /* patient_prescriptionViewController.swift in Sources */,
 				E1971DA91E62816600F9E093 /* Doctor-mainViewController.swift in Sources */,
 				E17F2FC01E68290600722523 /* LoginViewController.swift in Sources */,
 				E14780E21E3667D700B32037 /* HospitalManagement.xcdatamodeld in Sources */,
+				E1D950371E8E523C00C46971 /* IndividualPrescriptionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,7 +828,8 @@
 			baseConfigurationReference = 8EF4013565E105F2651964FC /* Pods-HospitalManagement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = XW73GFFZH2;
 				INFOPLIST_FILE = HospitalManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.App01.HospitalManagement;
@@ -702,7 +843,8 @@
 			baseConfigurationReference = C8759F1F5FA62CF020AF6D88 /* Pods-HospitalManagement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = XW73GFFZH2;
 				INFOPLIST_FILE = HospitalManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.App01.HospitalManagement;

@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         case FirstChildTab = 0
         case SecondChildTab = 1
         case ThirdChildTab = 2
+        case ForthChildTab = 3
     }
     
     var currentViewController: UIViewController?
@@ -34,6 +35,10 @@ class ViewController: UIViewController {
     lazy var thirdChildTabVC : UIViewController? = {
         let thirdChildTabVC = self.storyboard?.instantiateViewController(withIdentifier: "AccountViewController")
         return thirdChildTabVC
+    }()
+    lazy var forthChildTabVC : UIViewController? = {
+        let forthChildTabVC = self.storyboard?.instantiateViewController(withIdentifier: "patient_prescriptionViewController")
+        return forthChildTabVC
     }()
     
     
@@ -80,6 +85,8 @@ class ViewController: UIViewController {
             vc = secondChildTabVC
         case TabIndex.ThirdChildTab.rawValue :
             vc = thirdChildTabVC
+        case TabIndex.ForthChildTab.rawValue :
+            vc = forthChildTabVC
         default:
             return nil
         }

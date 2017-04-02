@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class IndividualPatientViewController: UIViewController {
 
@@ -18,6 +19,8 @@ class IndividualPatientViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let resource=ImageResource(downloadURL: URL(string: ScheduleViewController.Passing_Patient_Information.image_url)!, cacheKey:ScheduleViewController.Passing_Patient_Information.image_url)
+        patientImage.kf.setImage(with: resource)
         
         patientImage.layer.cornerRadius = patientImage.frame.size.width/2
         patientImage.clipsToBounds=true
@@ -25,10 +28,12 @@ class IndividualPatientViewController: UIViewController {
         patientImage.layer.borderColor = UIColor.darkGray.cgColor
         patientImage.layer.borderWidth=3
         
-        patientName.text="Aiman Abdullah Anees"
-        patientNumber.text="7760566874"
-        patientInsurance.text="Bupa Life Insurance"
-        patientFileNumber.text="15000101"
+        patientName.text=ScheduleViewController.Passing_Patient_Information.name
+        patientNumber.text=ScheduleViewController.Passing_Patient_Information.mobile
+        patientInsurance.text=ScheduleViewController.Passing_Patient_Information.insurance
+        patientFileNumber.text=ScheduleViewController.Passing_Patient_Information.file_number
+        
+        
         
 
 
